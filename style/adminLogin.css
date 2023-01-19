@@ -1,0 +1,100 @@
+
+
+.container{
+    padding: 100px;
+    display: flex;
+   margin: auto;
+   /* text-align: center; */
+   margin-top: 50px;
+   gap: 20px;
+   width: 90%;
+}
+h2{
+    border-bottom: 1px solid #ddd;
+}
+h1{
+    margin-top: 50px;
+    /* display: none; */
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+    gap: 5px;
+    padding: 50px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+#form>h3{
+    margin-top: 20px;
+    color: #666666;
+    
+   
+}
+#button{
+    margin:auto;
+    padding: 5px;
+    
+}
+input{
+    height: 30px;
+    border: 1px solid #ddd;
+    padding: 7px;
+    /* text-transform: lowercase; */
+}
+.checkbox_text{
+    display: flex;
+    gap: 5px;
+    
+}
+#label{
+    font-size: 15px;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+}
+#signInButton{
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 150px;
+    background: #444452;
+    color: white;
+}
+.registerDiv{
+    display: flex;
+    flex-direction: column; 
+    width: 500px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+    gap: 5px;
+    padding: 50px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+}
+#go_to_register{
+    padding: 5px;
+    width: 200px;
+    margin-top: 50px;
+    background: #444452;
+    color: white;
+    border: #666666;
+}
+.customerText{
+    text-align: center;
+    margin-top: 50px;
+}
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}

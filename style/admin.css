@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    line-height: 30px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif
+}
+
+
+#navpanel{
+    text-align: center;
+    display: flex;
+    background-color: rgb(44, 75, 255);
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+  
+    height: auto;
+    width: 90%;
+    margin: auto;
+    text-align: start;
+}
+form>input{
+    height: 30px;
+    width: 100%;
+}
+#add{
+    height: auto;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid rgb(237, 225, 225);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+#delete{
+   
+    height: auto;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid rgb(230, 228, 234);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h2{
+    text-align: center;
+}
+#navpanel>img{
+   
+width: 7%;
+height:auto;
+position: fixed;
+top: 0px;
+left: 40px;
+
+}#navpanel>h1{
+    color: white;
+
+}
+button{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: rgb(44, 75, 255);
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#count{
+    margin-top: 30px;
+}
+#count>h1{
+    text-align: center;
+}

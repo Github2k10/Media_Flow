@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/adminRegister.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./data/logo.png" />
+    <title>Admin Register</title>
+</head>
+
+<body>
+    <div id="navbar">
+
+    </div>
+    <div class="container">
+        <h2>CREATE NEW ADMIN ACCOUNT</h2>
+        <form id="form">
+            <h2>ADMIN INFORMATION</h2>
+            <hr style="color: #666666;">
+            <h3>First Name <span style="color: red;"> *</span></h3>
+            <input type="text" required id="first_name">
+            <h3>Last Name <span style="color: red; font-size: small;"> *</span></h3>
+            <input type="text" required id="last_name">
+            <h3>Email<span style="color: red;"> *</span></h3>
+            <input type="email" required id="email">
+            <h3>Phone <span style="color: red;"> *</span></h3>
+            <input type="number" required id="phone">
+            <h3>Password <span style="color: red;"> *</span></h3>
+            <input type="password" required id="password">
+            <h3>Employee code<span style="color: red;"> *</span></h3>
+            <input type="number" required id="employeeCode">
+            <br>
+            <input type="submit" value="CREATE AN ACCOUNT" id="button">
+            <div id="AppendButtonHere">
+
+            </div>
+        </form>
+    </div>
+</body>
+<script type="module" src="./script/adminRegister.js"></script>
+
+</html>

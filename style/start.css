@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* //////////////////// NavBar CSS       //////////////////////// */
+.nav-bar{
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .nav-bar a{
+    text-decoration: none;
+    color: rgb(87, 86, 86);
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top-nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .top-nav > a:hover{
+    color: blue;
+    background-color: #f5f5f5;
+    border-bottom: 3px solid blue;
+  }
+  
+  
+  .nav-bar > div > div{
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-bar > div > div > img{
+    width: 60px;
+  } 
+  
+  .account{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .account .user i{
+    font-size: 40px;
+    margin-left: 30px;
+  }
+  
+  .account > :first-child{
+    color: blue;
+    font-size: 17px;
+  }
+  
+  .account > :first-child i{
+    margin-right: 5px;
+  }
+  
+  /* ///////////////////   NavBar End ////////////////// */
+
+.small-cont{
+   
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+    margin: auto;
+    margin-top: 100px;
+}
+#temp{
+   margin-bottom: 0px;
+    display: inline-block;
+    border-bottom: 2px solid rgb(44, 75, 255);
+}
+.big_cont>div{
+    border: 1px solid rgb(245, 245, 245);
+    background: rgb(245, 245, 245);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+    padding: 20px;
+}
+.big_cont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.big_cont>div>img{
+
+width: 80%;
+display: block;
+margin: auto;
+}
+h3{
+    margin-top: 20px;
+    background: white;
+}
+
+@media all and (min-width:0px) and (max-width:599px) {
+    .big_cont{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 400px;
+    }
+    
+}
+@media all and (min-width:599px) and (max-width:1299px) {
+    .big_cont{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 200px;
+    }
+    
+}

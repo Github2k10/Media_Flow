@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Flow</title>
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="icon" href="./data/logo.png">
+    <script src="https://kit.fontawesome.com/1f971e42f5.js"
+      crossorigin="anonymous"></script>
+
+    <style>
+    .top-nav  > :nth-child(2){
+      color: blue;
+      background-color: #f5f5f5;
+      border-bottom: 3px solid blue;
+    }
+    </style>
+
+  </head>
+
+<body>
+
+<!-- ////////////////////// NavBar   //////////////////////// -->
+
+  <div class="nav-bar">
+    <div class="top-nav">
+      <div style="width: 30%;">
+        <img id="logo" src="./data/logo.png" alt="">
+        <h3>MEDIA FLOW</h3>
+      </div>
+      <a href="./calendar.html">Publishing </a>
+      <a href="#">Analytics </a>
+      <a href="#">Engagement</a>
+      <a href="./start.html">Start Page</a></li>
+    </div>
+
+    <div class="account">
+        <a href="#"> <i class="fa-solid fa-bolt"></i> Upgrade</a>
+        <a href="#">App</a>
+        <a href="#">Help</a>
+        <div class="user">
+          <p>Account</p>
+          <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+        </div>
+    </div>
+  </div>
+
+<!-- ////////////////////// NavBar End   //////////////////////// -->
+
+  <!-- <--- publishing part --->
+  <div class="cont">
+    <div class="left">
+      <h3>Content</h3>
+      <h3 id="box">Calendar</h3>
+      <h3>Compaigns</h3>
+      <hr>
+      <h3>Queues</h3>
+      <button id="btn"> <a style="text-decoration: none;" href="channel.html">Add
+          Channels</a></button>
+    </div>
+
+      <!-- <--- calendar part  --->
+      <div id="container">
+        <div id="flex">
+          <div id="header">
+            <button id="backButton">Previous</button>
+            <div id="monthDisplay"></div>
+            <button id="nextButton">Next</button>
+          </div>
+          <div>
+            <button class="post">All Posts</button>
+            <button class="post">All Channels</button>
+            <button id="batn" class="post">Create Post</button>
+          </div>
+        </div>
+
+        <div id="weekdays">
+          <div>Sunday</div>
+          <div>Monday</div>
+          <div>Tuesday</div>
+          <div>Wednesday</div>
+          <div>Thursday</div>
+          <div>Friday</div>
+          <div>Saturday</div>
+        </div>
+        <div id="calendar"></div>
+      </div>
+
+      <div id="newEventModal">
+        <h2>New Post</h2>
+        <input id="eventTitleInput" placeholder="What would you like to share?"/>
+        <input id="eventTitleInput" placeholder="Post Title" />
+        <button id="saveButton">Save</button>
+        <button id="cancelButton">Cancel</button>
+      </div>
+
+      <div id="deleteEventModal">
+        <h2>Discard Changes?</h2>
+        <p id="eventText"></p>
+        <button id="deleteButton">Discard Changes</button>
+        <button id="closeButton">Close</button>
+      </div>
+      <div id="modalBackDrop"></div>
+    </div>
+  </body>
+  </html>
+  <script src="script/script.js"></script>

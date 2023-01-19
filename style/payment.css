@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body::-webkit-scrollbar{
+    width:  7px;
+    background: #f0f0f0;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: #858585;
+}
+
+section{
+    display: flex;
+    width: 100%;
+}
+
+.container{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    padding: 40px 0px 50px 0px;
+}
+
+.container .left{
+    width: 70%;
+}
+
+.container .empty{
+    width: 30%;
+    padding: 50px;
+}
+
+.left-top{
+    display: flex;
+    align-items: center;
+}
+
+.left-top > div{
+    display: flex;
+    align-items: center;
+}
+
+.left-top i{
+    color: gray;
+    cursor: pointer;
+}
+
+.left-top  img{
+    width: 50px;
+}
+
+.left-top > div:hover{
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+.left-bottom{
+    padding: 20px;
+}
+
+.left-bottom > :last-child{
+    width: fit-content;
+    height: fit-content;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 50px;
+}
+
+.left-bottom > :last-child img{
+    width: 220px;
+    border: 5px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.left-bottom > :first-child p{
+    font-size: 15px;
+    opacity: 0.7;
+    color: rgb(90, 90, 90);
+}
+
+.price{
+    font-size: 35px;
+    display: flex;
+    font-weight: 500;
+}
+
+.price > P{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: rgb(90, 90, 90);
+}
+
+
+
+.left .end{
+    display: flex;
+    font-size: 11px;
+    color: gray;
+    margin-top: 130px;
+}
+
+.left .end P{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.right{
+    height:max-content;
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.right .card{
+    width: 60%;
+    margin: 40px 0px 0px 80px;
+    padding-bottom: 35px;
+    /* border: 1px solid black; */
+}
+
+label{
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+}
+
+input{
+    width: 80%;
+    height: 18px;
+    padding: 6px;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#email{
+    margin: 20px 0 20px 0;
+    height: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.card-number{
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+#card-number{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-number > div{
+    display: flex;
+    width: 83.5%;
+}
+
+.card-number > div > input{
+    width: 50%;
+}
+
+form > a{
+    font-size: 11px;
+    color: gray;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.checkbox{
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.checkbox :last-child{
+    width: fit-content;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+form > button{
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    background-color: #2c4bff;
+    color: #abb7ff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card > p{
+    padding: 10px;
+    width: 80%;
+    font-size: 11px;
+    opacity: 0.7;
+    color: gray;
+}

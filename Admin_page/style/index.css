@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+  #RightSideBar .info {
+    border: .1px dashed grey;
+    margin: 10px 0px;
+    padding: 20px 10px;
+    border-radius:10px ;
+    display: flex;
+    gap: 20px;
+  }
+  #RightSideBar .cards {
+    font-size: 16px;
+    line-height: 28px;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    padding: 14px;
+    border-radius: 8px;
+  }
+  /* #recentOrders>table td,th{
+   border: none;
+  } */
+  .tRow{
+    border: 1px solid black;
+  }
+  .v{
+    background-color: violet;
+  }
+  .r{
+    background-color: red;
+  }
+  .g{
+    background-color: rgb(82, 235, 17);
+  }
+  .b{
+    background-color: #007bff;
+  }
+  #RightSideBar .info i{
+    font-size: 26px;
+  }
+  #RightSideBar .cards>div>div{
+    font-size: 24px;
+  }
+  #RightSideBar{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius:6px ;
+  }

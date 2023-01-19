@@ -1,0 +1,18 @@
+#productData{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+}
+#productData input[type='text'],input[type='number'],input[type='submit']{
+height: 25px;
+padding: 4px;
+border-radius: 8px;
+border: 1px solid grey;
+}
+select{
+    height: 35px;
+padding: 4px;
+border-radius: 8px;
+border: 1px solid grey;
+}

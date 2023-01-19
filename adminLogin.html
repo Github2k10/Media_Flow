@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/adminLogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style/index.css">
+    <link rel="icon" type="image/x-icon" href="./data/logo.png" />
+    <title>Admin login</title>
+</head>
+
+<body>
+    <div id="navbar">
+
+    </div>
+    <div class="container">
+        <div class="loginDiv">
+            <h2>ADMIN SIGNIN</h2>
+            <form id="form">
+                <h2>REGISTERED ADMIN</h2>
+                <p>Sign in here with Employee code.</p>
+                <h3>Email<span style="color: red;"> *</span></h3>
+                <input type="email" required id="email">
+
+                <h3>Password <span style="color: red;"> *</span></h3>
+                <input type="password" required id="password">
+
+                <h3>Employee code</h3>
+                <input type="number" required id="employeeCode">
+
+                <div class="checkbox_text">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" id="label">Remember Me</label>
+                </div>
+                <a href="#">Forgot password?</a>
+                <br>
+                <button id="signInButton">SIGN IN</button>
+
+            </form>
+        </div>
+        <div class="registerDiv">
+            <h2>NEW ADMIN REGISTER HERE</h2>
+            <P>This is only for Beauty Verse Employee.</P>
+            <button id="go_to_register">CREATE AN ACCOUNT</button>
+
+        </div>
+
+
+
+    </div>
+
+    </div>
+</body>
+<script type="module" src="./script/adminLogin.js"></script>
+
+</html>

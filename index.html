@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/homepage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
+    <script src="https://kit.fontawesome.com/1f971e42f5.js" crossorigin="anonymous"></script>
+
+    <title>MEDIA FLOW</title>
+    <link rel="stylesheet" href="./style/services.css">
+    <link rel="stylesheet" href="./style/homepage.css">
+    <link rel="icon" href="./data/logo.png">
+
+</head>
+
+<body>
+    <nav>
+
+        <div class="nav-bar">
+            <img id="logo" src="logo.png" alt="">
+            <input type="checkbox" name="" id="check">
+            <label for="check"><i class="fa-solid fa-bars"></i></label>
+            <img id="logo" src="./data/logo.png" alt="">
+
+            <ul>
+                <li><a href="">Tools <i class="fa-solid fa-angle-down"></i> </a>
+
+                    <div class="drop-down">
+                        <ul>
+                            <li><i class="fa-solid fa-upload"></i> <a href="calendar.html">
+                                    <h4> Publishing</h4>
+                                    <p>Plan , colloborate , abd publish thumb-stopping content</p>
+                                </a></li>
+                            <li><i class="fa-solid fa-arrow-trend-up"></i><a href="#">
+                                    <h4>Analytics</h4>
+                                    <p>Analyze socal-media performance and create reports</p>
+                                </a></li>
+                            <li><i class="fa-solid fa-message"></i><a href="#">
+                                    <h4>Engagement</h4>
+                                    <p>Quickly navigate your comments and engage with your audience</p>
+                                </a></li>
+                            <li><i class="fa-solid fa-pen-nib"></i><a href="./start.html">
+                                    <h4>Start Page</h4>
+                                    <p>Build a customized landing page in minutes</p>
+                                </a></li>
+
+                            <li><i class="fa-solid fa-database"></i><a href="./admin.html">
+                                    <h4>Admin Panel</h4>
+                                    <p>Add your own Templates here</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Channels <i class="fa-solid fa-angle-down"></i> </a>
+                    <div class="channel-down">
+                        <ul>
+                            <li><i class="fa-brands fa-facebook"></i> <a href="#">
+                                    <h4>Facebook</h4>
+                                </a></li>
+                            <li><i class="fa-brands fa-google-wallet"></i></i><a href="#">
+                                    <h4>Google Bussness Profile</h4>
+                                </a></li>
+                            <li><i class="fa-brands fa-instagram"></i><a href="#">
+                                    <h4>Instagram</h4>
+                                </a></li>
+                            <li><i class="fa-brands fa-linkedin"></i><a href="#">
+                                    <h4>LinkedIn</h4>
+                                </a></li>
+                            <li><i class="fa-brands fa-pinterest"></i><a href="#">
+                                    <h4>Pintrest</h4>
+                                </a></li>
+                            <li><i class="fa-brands fa-shopify"></i><a href="#">
+                                    <h4>Shopify</h4>
+                                </a></li>
+                            <li><i class="fa-brands fa-tiktok"></i><a href="#">
+                                    <h4>Tiktok</h4>
+                                </a></li>
+                            <li><i class="fa-brands fa-twitter"></i><a href="#">
+                                    <h4>Twitter</h4>
+                                </a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="./pricing.html">Pricing</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="login-btn">
+                <button id="open">Start Subscription</button>
+                <a href="signin.html">Log in</a>
+                <button class="get-started">Get started now</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div id="modal_container" class="modal_container">
+
+        <div id="modal">
+
+
+            <div class="info">
+                <h1 id="title">Confirm Plan</h1>
+
+            </div>
+            <div id="second">
+                <label for="month">Monthly</label>
+                <label class="switch">
+                    <input type="checkbox" id="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <label for="year">Yearly</label>
+                <label id="saving" for="saving">Savings $24/year </label>
+            </div>
+
+            <div id="third">
+                <span id="closed">X</span>
+                <h1 id="sum">Summary</h1>
+
+            </div>
+
+        </div>
+
+
+
+        <div id="service-cont">
+            <div class="first">
+
+            </div>
+            <div class="sec">
+
+                <div>
+                    <span>Your Current Plan: Free</span><br>
+                    <span>3 Channels : one User</span><br>
+                    <hr>
+                    <span>Currently Paying: $0/mo</span>
+                </div>
+                <div>
+                    <span>Channels </span>
+
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <!-- <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuPxkCqftnMu0Q8KejyBRbm-6oG3d4g7JWA4eyVE1ZZPIakMgO_ayLTNqIIA2cjVRu1C4&usqp=CAU" alt="socialmedia.png"> -->
+
+
+                    <button id="sub"><span id="subout">-</span></button>
+                    <button id="count"><input id="val" type="num" value="1"></button>
+                    <button id="add">+</button><br>
+                    <p>Your updated plan:</p>
+                    <p id="plan">Free</p>
+                    <span id="channels"><span>1</span> channels</span> <span>Unlimited Users</span>
+                    <hr>
+                    <span>Total due today:</span><br>
+                    <span>$ <span id="total">0</span></span><br>
+                    <hr>
+                    <span>$ <span id="total2">0</span> will be billed every month until canceled.</span>
+                </div>
+                <button id="payment">Go to Payment</button>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="cont-1">
+        <div class="grow">
+            <div class="content">
+                <h1>Grow your audience on social and beyond</h1>
+                <p>Buffer helps you build an audience organically. We’re a</p>
+                <p>values-driven company that provides affordable,intuitive,</p>
+                <p>intuitive, marketing tools for ambitious people and teams.</p>
+            </div>
+            <div class="btn">
+                <button class="btn-1 get-started">Get started now</button>
+                <button data-model-target="#model" class="btn-2" id="btn-vedio"><i
+                        class="fa-regular fa-circle-play"></i> Watch video </video> </button>
+                <video class="model " id="model" src="data/SocialMedia.mp4" controls></video>
+                <button id="closeBtn" class="close-button ">&times;</button>
+            </div>
+        </div>
+
+        <img src="./data/img-1.webp" alt="">
+
+    </div>
+
+    <div class="cont-2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="cont-3">
+        <h1>Grow your following without draining your time</h1>
+        <p>Social media can be the fastest and cheapest way to build your</p>
+        <p>following and grow your business. But it can also take up all your</p>
+        <p>time. Here are four ways Buffer can help.</p>
+    </div>
+    <div class="cont-4">
+
+    </div>
+
+    <div class="cont-5">
+        <div class="details">
+            <h4 class="h4-1">1. SHARE CLICK-WORTHY CONTENT</h4>
+            <h1>Get clicks you deserve</h1>
+            <p>Buffer will tell you when and what to publish to make</p>your content standout<p>
+                <button class="btn-1 btn get-started">Get started now</button>
+        </div>
+        <div class="img">
+            <img src="https://buffer.com/static/illustrations/thumb-stop-content-2.webp" alt="" srcset="">
+        </div>
+    </div>
+    <div class="cont-6">
+        <div class="img-1">
+
+            <img src="./data/img-5.webp" alt="" srcset="">
+
+        </div>
+        <div class="details-1">
+            <h4>2. BUILD AN ENGAGED AUDIENCE</h4>
+            <h1>Grow your following</h1>
+            <p>Buffer will share your content on the right channels,</p>
+            <p>with suggested hashtags to help you grow.</p>
+            <button class="btn-1 button get-started">Get started now</button>
+        </div>
+    </div>
+    <div class="cont-7">
+        <div class="details-2">
+            <h4 class="h4-1">3. SAVE TONS OF TIME</h4>
+            <h1>Grow your following</h1>
+            <p>Buffer will publish everything for you to save time and</p>
+            <p>it’ll showcase your work with automated reports.</p>
+            <button class="btn-1 button-1 get-started">Get started now</button>
+        </div>
+        <div class="img-2">
+
+            <img src="./data/img-6.webp" alt="" srcset="">
+
+        </div>
+    </div>
+    <div class="cont-8">
+        <h4 class="h4-1">4. COORDINATE WITH EASE</h4>
+        <h1>Collaboration has never been easier</h1>
+        <p>With Buffer’s permissions levels and approval flows, your team can work freely without any micro-management.
+        </p>
+    </div>
+
+    <div class="swiper mySwiper wrapper">
+
+        <div class=" swiper-wrapper cont-9">
+            <div class="swiper-slide  cards">
+                <div class="card-content">
+                    <div class="image">
+
+                        <img src="./data/img-11.jpg" alt="">
+
+                    </div>
+                    <div class="p">
+                        <p>Buffer has made sharing our story and</p>
+                        <p>building our brand on social media so</p>
+                        <p>much easier.</p>
+                    </div>
+                    <div class="logo">
+
+                        <img src="./data/img2.png" alt="">
+
+                    </div>
+                    <h6>Luis Cancel, Managing Editor</h6>
+                </div>
+            </div>
+            <div class="swiper-slide cards">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="https://buffer.com/static/testimonials/rodrigo-hyago-happysocks@mobile.jpg" alt="">
+                    </div>
+                    <div class="p">
+                        <p>Buffer has made sharing our story and</p>
+                        <p>building our brand on social media so</p>
+                        <p>much easier.</p>
+                    </div>
+                    <div class="logo">
+                        <img src="https://www.citybiz.co/wp-content/uploads/2021/03/Food52.jpg" alt="">
+                    </div>
+                    <h6>Luis Cancel, Managing Editor</h6>
+                </div>
+            </div>
+            <div class="swiper-slide cards">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="https://buffer.com/static/testimonials/joe-mercy-for-animals@mobile.jpg" alt="">
+                    </div>
+                    <div class="p">
+                        <p>Buffer has made sharing our story and</p>
+                        <p>building our brand on social media so</p>
+                        <p>much easier.</p>
+                    </div>
+                    <div class="logo">
+                        <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/omyq2h2cteqfmqav5h4q"
+                            alt="">
+                    </div>
+                    <h6>Luis Cancel, Managing Editor</h6>
+                </div>
+            </div>
+            <div class="swiper-slide cards">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="https://buffer.com/static/testimonials/liz-gillis-dress-up@2x-mobile.jpg" alt="">
+                    </div>
+                    <div class="p">
+                        <p>Buffer has made sharing our story and</p>
+                        <p>building our brand on social media so</p>
+                        <p>much easier.</p>
+                    </div>
+                    <div class="logo">
+                        <img src="https://vtlogo.com/wp-content/uploads/2021/08/burrow-vector-logo.png" alt="">
+                    </div>
+                    <h6>Luis Cancel, Managing Editor</h6>
+                </div>
+            </div>
+            <div class="swiper-slide cards">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="https://buffer.com/static/testimonials/troy-petrunoff@mobile.jpg" alt="">
+                    </div>
+                    <div class="p">
+                        <p>Buffer has made sharing our story and</p>
+                        <p>building our brand on social media so</p>
+                        <p>much easier.</p>
+                    </div>
+                    <div class="logo">
+                        <img src="https://img.favpng.com/10/3/23/happy-socks-men-s-cat-men-s-leopard-sock-s-socks-blue-pink-happy-socks-logo-png-favpng-NUf1FhWYaMTHq75Gf3LgJcXgp.jpg"
+                            alt="">
+                    </div>
+                    <h6>Luis Cancel, Managing Editor</h6>
+                </div>
+            </div>
+            <div class="swiper-slide cards">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="https://buffer.com/static/testimonials/troy-petrunoff@mobile.jpg" alt="">
+                    </div>
+                    <div class="p">
+                        <p>Buffer has made sharing our story and</p>
+                        <p>building our brand on social media so</p>
+                        <p>much easier.</p>
+                    </div>
+                    <div class="logo">
+                        <img src="https://img.favpng.com/10/3/23/happy-socks-men-s-cat-men-s-leopard-sock-s-socks-blue-pink-happy-socks-logo-png-favpng-NUf1FhWYaMTHq75Gf3LgJcXgp.jpg"
+                            alt="">
+                    </div>
+                    <h6>Luis Cancel, Managing Editor</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="cont-11">
+        <div class="img">
+
+            <img src="./data/img-7.avif" alt="">
+
+        </div>
+        <div class="details-3">
+            <h1>And we are here to help</h1>
+            <p>Our customer advocates are standing by 24/7 to support you via</p>
+            <p>email and social media. We also have a comprehensive, regularly</p>
+            <p>updated help center for those who prefer to find help themselves.</p>
+            <Button class="btn-2">Visit our help center</Button>
+        </div>
+    </div>
+    <h5>An official marketing partner of the industry leaders</h5>
+    <div class="cont-12">
+
+        <div>
+
+            <img src="./data/img-8.png" alt="" srcset="">
+        </div>
+        <div>
+            <img src="/data/img-9.png" alt="" srcset="">
+        </div>
+        <div>
+            <img src="./data/img-10.png" alt="" srcset="">
+
+        </div>
+    </div>
+    <footer>
+        <div class="cont-13">
+            <div class="head">
+                <h1>140,000+ people like you use Buffer to</h1>
+                <h1>build their brand on social media every</h1>
+                <h1>month</h1>
+            </div>
+            <div class="button">
+                <button class="btn-3 get-started">Get started now</button>
+            </div>
+        </div>
+
+        <div class="cont-14">
+            <div class="fst-part">
+                <h1>Media Flow</h1>
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+                <h6>Download</h6>
+                <button class="btn-4"><i class="fa-brands fa-apple"></i><a
+                        href="https://apps.apple.com/app/apple-store/id490474324?pt=936146&ct=SiteFooter&mt=8">App
+                        store</a> </button>
+                <button class="btn-4"><i class="fa-brands fa-google-play"></i><a
+                        href="https://play.google.com/store/apps/details?id=org.buffer.android&hl=en"> Google
+                        play</a></button>
+                <p>Copyright ©2022 Buffer|Privacy|Terms|Security</p>
+            </div>
+            <ul>
+                <h4>Tools</h4>
+                <li><a href="">Publishing</a></li>
+                <li><a href="">Analytics</a></li>
+                <li><a href="">Engagement</a></li>
+                <li><a href="">Start Page</a></li>
+                <li><a href="">Extras</a></li>
+            </ul>
+            <ul>
+                <h4>Resources</h4>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Content Library</a></li>
+                <li><a href="">Browser Extension</a></li>
+                <li><a href="">Free Image Editor</a></li>
+            </ul>
+            <ul>
+                <h4>Support</h4>
+                <li><a href="">Help Center</a></li>
+                <li><a href="">Status</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">Product Roadmap</a></li>
+            </ul>
+            <ul>
+                <h4>Company</h4>
+                <li><a href="">About</a></li>
+                <li><a href="">Transparency</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Accessibility</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="">Sitemap</a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script src="./script/homepage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="./script/services.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>

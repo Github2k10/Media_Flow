@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body::-webkit-scrollbar{
+    width:  7px;
+    background: #f0f0f0;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: #858585;
+}
+
+.base-section{
+    padding-bottom: 60px;
+    margin-top: 60px;
+}
+
+.base-section .base-container{
+    width: 80%;
+    margin: auto;
+}
+
+.base-section .base-container h1{
+    margin: auto;
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.base-section .base-container p{
+    margin: auto;
+    width: 65%;
+    margin-top: 30px;
+    line-height: 2;
+    font-size: 16px;
+    text-align: center;
+}
+
+.base-section-ss{
+    width: 100%;
+}
+
+.base-container-ss{
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1px;
+    margin: auto;
+    display: block;
+}
+
+.base-container-ss button{
+    width: 100px;
+    height: 55px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.base-container-ss :first-child{
+    border-right: none;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgb(99, 99, 99);
+    background-color: white;
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+    transition: background-color 200ms ease-out 0s;
+    min-width: 94px;
+}
+
+.base-container-ss :last-child{
+    border-right: none;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid rgb(99, 99, 99);
+    background-color: white;
+    color: rgb(99, 99, 99);
+    cursor: pointer;
+    transition: background-color 200ms ease-out 0s;
+    min-width: 94px;
+}
+
+.base-container-ss > button:hover{
+    background-color: #e9ecfe;
+}
+
+.base-container-ss-icon{
+    width: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.base-container-ss-icon div{
+    margin: auto;
+    width: fit-content;
+}
+
+.base-container-ss-icon > div i{
+    font-size: 25px;
+    margin: 5px;
+}
+
+
+.base-container-pricing{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 150px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.base-container-pricing .base-container-pricing-card{
+    width: 330px;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    background: white;
+}
+
+.base-container-pricing .base-container-pricing-card > div{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.base-container-pricing .base-container-pricing-card > div > h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.base-container-pricing .base-container-pricing-card >  div > :nth-child(2) { 
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.base-container-pricing-card >  div > :nth-child(4){
+    font-size: 14px;
+}
+
+.base-container-pricing .base-container-pricing-card > div li{
+    list-style-type: none;
+}
+
+.base-container-pricing-card > div > div{
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.base-container-pricing-card > div > div > span{
+    font-size: 34px;
+}
+
+.base-container-pricing-card > div p > span{
+    text-decoration: line-through;
+}
+
+.base-container-pricing-card > div > div p{
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.base-container-pricing-card > div > div > div{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.base-container-pricing-card > div > button{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px 30px 0px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-color: #2c4bff;
+    border: none;
+    border-radius: 7px;
+}
+
+.base-container-pricing-card > div > button:hover{
+    background-color: #1f35b3;
+    transition: 0.3s;
+}
+
+.base-container-pricing-card > div > ul{
+    line-height: 2.5;
+    margin-bottom: 20px;
+}
+
+.base-container-pricing-card > div > ul i{
+    margin-right: 15px;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.base-container-pricing-card > div > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.base-container-pricing-card > div > a:hover{
+    color: blue;
+}
+
+.base-container-pricing-card > div > hr{
+    background: blue;
+    width: 50%;
+    height: 0.5px;
+}
+
+.base-container-pricing-background{
+    height: 90%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    padding: 0;
+    margin-top: 150px;
+    background: url(https://buffer.com/static/background/yellow-bg-withpattern.jpg) 0% 0% / cover rgb(250, 222, 42);
+}
+
+.company{
+    padding-top: 150px;
+}
+
+.company > div{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bottom{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bottom .table-1{
+    width: 100%;
+}
+
+.table-1 .tbody-1 > tr{
+    width: 100%;
+}
+
+.table-1 .tbody-1 > tr > th{
+    width: 20%;
+}
+
+.tbody-1 > tr > div > :first-child{
+    text-align: start;
+    padding: 0px;
+}
+
+.tbody-1 > tr > th > div > div > span{
+    display: block;
+}
+
+.tbody-1 > tr > th > div{
+    width: 95%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: none;
+}
+
+.tbody-1 > tr > th > div > div > button{
+    width: 90%;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #2c4bff;
+    border: none;
+    border-radius: 7px;
+}
+
+.tbody-2 > tr > th{
+    width: 200px;
+    height: 150px;
+    font-weight: 400;
+}
+
+.tbody-2 > tr > :first-child h2{
+    text-align: start;
+    font-size: 15px;
+}
+
+.tbody-2 > tr > th > div{
+    width: 95%;
+    height: 102%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-1 :last-child > tr > th > div{
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tbody-2 > tr > th > hr{
+    width: 397%;
+}
+
+.tbody-1 > tr > th > hr{
+    width: 397%;
+}
+
+.remove_border > :first-child{
+    border: none;
+}
+
+.tbody-2 .fa-check{
+    font-size: 40px;
+    color: #2c4bff;
+}
+
+.tbody-2 .fa-xmark{
+    font-size: 40px;
+    color: black;
+}

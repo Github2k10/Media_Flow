@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+
+/* //////////////////// NavBar CSS       //////////////////////// */
+.nav-bar{
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: rgb(87, 86, 86);
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.top-nav > a:hover{
+  color: blue;
+  background-color: #f5f5f5;
+  border-bottom: 3px solid blue;
+}
+
+
+.nav-bar > div > div{
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar > div > div > img{
+  width: 60px;
+} 
+
+.account{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 14px;
+}
+
+.account .user i{
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.account > :first-child{
+  color: blue;
+  font-size: 17px;
+}
+
+.account > :first-child i{
+  margin-right: 5px;
+}
+
+/* ///////////////////   NavBar End ////////////////// */
+
+
+/* <--- publishing part -----> */
+.cont{
+  display: flex;
+}
+
+.left{
+border: 1px solid rgb(232, 232, 232);
+width: 230px;
+margin-left: 1%;
+margin-right: 4%;
+padding-left: 3%;
+height: 515px;
+margin-top: 6%;
+border-radius: 10px;
+background-color: rgb(250, 250, 250);
+}
+
+div>#box{
+border: 0px solid rgb(9, 6, 159);
+padding: 10px;
+margin-right: 5%;
+background-color: rgb(201, 235, 246);
+color: blue;
+border-radius: 5px;
+}
+
+#btn{
+width: 200px;
+height: 40px;
+margin-top: 75%;
+font-weight: bold;
+color: black;
+}
+
+/* <--- calendar part ---> */
+  button {
+    cursor: pointer;
+    box-shadow: 0px 0px 2px gray;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  #flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .post {
+    background-color:  rgb(25, 38, 241);
+    padding:10px;
+    font-weight: bold;
+  }
+  
+  #header {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+   
+  }
+  #header button {
+    background-color:  rgb(25, 38, 241);;
+    font-weight: bold;
+   
+    
+
+  }
+  #container {
+    width: 770px;
+    margin-right: 17%;
+    margin-top: 5%;
+  }
+  #weekdays {
+    width: 100%;
+    display: flex;
+    color: rgb(2, 78, 78);
+    font-weight: bold;
+  }
+  #weekdays div {
+    width: 100px;
+    padding: 10px;
+  }
+  #calendar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .day {
+    width: 100px;
+    padding: 10px;
+    height: 80px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    margin: 5px;
+    box-shadow: 0px 0px 3px #CBD4C2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .day:hover {
+    background-color: rgb(156, 238, 211);
+  }
+  
+  .day + #currentDay {
+    background-color:#b8d7e6;
+  }
+  .event {
+    font-size: 10px;
+    padding: 3px;
+    background-color: #58bae4;
+    color: white;
+    border-radius: 5px;
+    max-height: 55px;
+    overflow: hidden;
+  }
+  .padding {
+    cursor: default !important;
+    background-color: white !important;
+    box-shadow: none !important;
+  }
+  #newEventModal, #deleteEventModal {
+    display: none;
+    z-index: 20;
+    padding: 25px;
+    background-color: #e8f4fa;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 350px;
+    top: 100px;
+    left: calc(50% - 175px);
+    position: absolute;
+    font-family: sans-serif;
+  }
+  #eventTitleInput {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px gray;
+  }
+  #eventTitleInput.error {
+    border: 2px solid red;
+  }
+  #cancelButton, #deleteButton {
+    background-color: #da0000;
+  }
+  #saveButton, #closeButton {
+    background-color: rgb(12, 10, 130);
+  }
+  #eventText {
+    font-size: 14px;
+  }
+  #modalBackDrop {
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+  }

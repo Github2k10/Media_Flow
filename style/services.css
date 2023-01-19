@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* rgb(44, 75, 255) */
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    line-height: 35px;
+    font-family: 'Poppins', sans-serif;
+} */
+
+/* body {
+   
+    background: #edeef6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+} */ 
+/* <<<<<<< HEAD:fw22_0574/services.css
+/* *{
+    line-height: 35px;
+} */
+/* ======= */
+
+/* >>>>>>> 5b37dfd08aa67592c24a097baf43d3ce6158f576:style/services.css */ */
+#title {
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+#sum {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#payment {
+   
+    border-radius: 10px;
+    border: 1px rgb(44, 75, 255);
+    background: rgb(44, 75, 255);
+    color: white;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+    
+}
+
+.modal_container {
+
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+
+    left: 90px;
+    right: 120px;
+    top: 10;
+
+    height: auto;
+    transition: opacity 0.8 ease;
+
+}
+
+.modal_container.show {
+
+    pointer-events: auto;
+    opacity: 1;
+    width: 80%;
+
+
+}
+#total,#total2{
+    font-size: 35px;
+}
+
+.modal_container>div>div {
+    padding: 10px;
+
+}
+
+.modal_container>div>div>div {
+    padding: 20px;
+    border: 0.5px solid rgb(231, 218, 218);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+
+}
+
+.modal_container>div>div>div:hover {
+
+
+    border: 1px solid #2196F3;
+}
+
+
+
+#modal {
+    background: white;
+   
+    height: 120px;
+    margin: 0px;
+    display: flex;
+
+
+
+
+
+}
+h1{
+font-size: 35px;
+}
+
+#img {
+    width: 120px;
+    height: 50px;
+
+
+
+}
+
+#add {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border: 1px solid rgb(44, 75, 255);
+    cursor: pointer;
+
+}
+
+#sub {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border: 1px solid rgb(44, 75, 255);
+    cursor: pointer;
+}
+
+#count>input {
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    /* border: 1px solid rgb(44, 75, 255)   ; */
+}
+
+.info {
+    display: block;
+    border: 10px solid white;
+    width: 80%;
+    height: auto;
+}
+
+#second {
+
+    width: auto;
+    top: 0;
+    width: 40%;
+   border-right: 1px solid rgb(165, 158, 158);
+
+}
+#modal_container{
+    width: 80%;
+    left: 200px;
+    right: 200px;
+    height:auto;
+}
+#modal_container>*{
+    line-height: 35px;
+    font-size: 15px;
+
+}
+.first>div>p{
+    font-size: 15px;
+}
+/* .first{
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+} */
+#third {
+    width: 100%;
+    top: 0;
+   
+    width: 31.7%;
+}
+
+
+#open {
+    height: 7vh;
+    width: 11vw;
+    border: none;
+    background-color: #3832ff;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+
+} 
+#open:hover {
+    background: rgb(4, 30, 132);
+
+}
+.nav-bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#saving {
+    color: #2196F3;
+    font-weight: bold;
+
+}
+
+#closed {
+
+    display: inline-block;
+    margin-left: 95%;
+   
+    padding: 5px;
+    margin-top: 0px;
+
+
+
+}
+
+#closed:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+#service-cont {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.sec {
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: auto;
+    width: 20.2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+
+#f>h2{
+    font-size: 30px;
+margin-top: 50px;
+
+}
+#s>h2{
+    font-size: 30px;
+    margin-top: 50px;
+
+
+}
+#t>h2{
+    font-size: 30px;
+    margin-top: 50px;
+
+
+}
+.title{
+    font-size: 20px;
+    
+}
+
+.sec>div:nth-child(1) {
+    border: 1px solid rgb(233, 221, 221);
+    height: 150px;
+    border-radius: 5%;
+
+}
+
+.sec>div:nth-child(1):hover {
+    border: 1px solid rgb(245, 241, 241);
+
+    border-radius: 5%;
+
+}
+
+.sec>div:nth-child(2) {
+    border: 1px solid rgb(245, 241, 241);
+    height: auto;
+    border-radius: 5%;
+    margin-top: 10px;
+
+}
+
+.sec>div:nth-child(2):hover {
+    border: 1px solid rgb(233, 221, 221);
+
+    border-radius: 5%;
+
+
+}
+
+.first {
+    /* border: 5px solid rgb(32, 0, 214); */
+    height: auto;
+    width: 80%;
+    display: flex;
+
+}
+
+.first>div {
+    border: 1px solid rgb(162, 162, 162);
+    margin: 10px;
+
+}
+
+#title {
+    display: inline-block;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.hr {
+    width: 90%;
+    opacity: 0.3;
+    color: gray;
+}
+
+.selection {
+    border: 2px solid #2196F3;
+
+}
+
+
+@media all and (min-width:299px) and (max-width:699px) {
+
+
+    .first{
+        flex-direction: column;
+
+    }
+
+}

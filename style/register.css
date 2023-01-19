@@ -1,0 +1,89 @@
+
+body{
+    margin: 0;
+    padding: 0%;;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    margin-top: 0px;
+    padding-left: 50px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+
+}
+#header image{
+   
+    width: 100%;
+    height: 100%;
+}
+#container{
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    /* margin-top: 100px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+#form{
+    margin: auto;
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 100px;
+    padding: 20px;
+    /* border: 1px solid; */
+}
+input{
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 5px;
+}
+#signupBtn{
+    background-color: silver;
+    border-radius: 5px;
+    color: black;
+    height: 50px;
+    font-weight: 500;
+    border: none;
+}
+#signupBtn:hover{
+    background-color:rgb(44, 75, 255); 
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.signupSection{
+    width: 66%;
+    height: 100%;
+    margin: 0px;
+    /* border: 1px solid; */
+}
+#post{
+    font-size: 16px;margin-top: 5px;
+}
+.imagesection{
+    background-color: rgb(44, 75, 255);
+    width: 33%;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.imagesection p{
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}

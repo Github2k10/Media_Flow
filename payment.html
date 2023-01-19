@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./data/logo.png" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="./style/payment.css">
+    <link rel="icon" href="./data/logo.png">
+</head>
+<body>
+    <section >
+        <div class="container">
+            <div class="empty"></div>
+            <div class="left">
+                <div class="left-top" id="back">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <div>
+                        <img src="./data/Logo.png" alt="">
+                        <h2>MEDIA FLOW</h2>
+                    </div>
+                </div>
+    
+                <div class="left-bottom">
+                    <div>
+                        <p>Subscribe to Buffer</p>
+                        <span class="price"><b id="price">$12.00</b> <p style="font-size: 12px;">per <br> Month</p></span>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./data/Logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="end">
+                    <p>Powered By <strong>MEDIA FLOW</strong></p> <hr> <p> Terms Privcy</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="card">
+                <p style="font-size: 20px; font-weight: 500; color: black;">Pay with card</p>
+                <form action="">
+                    <input type="email" name="" id="email" placeholder="Email      " readonly style="outline: none;">
+                    <br>
+                    <label for="">Card information</label>
+                    <div class="card-number">
+                        <input type="text" id="card-number" placeholder="1234 1234 1234 1234" required>
+                        <div>
+                            <input required type="text" style="border-bottom-left-radius: 5px;" placeholder="MM/YY">
+                            <input required type="text" style="border-bottom-right-radius: 5px;" placeholder="CVC">
+                        </div>
+                    </div>
+                    <label for="">Name on card</label> <br>
+                    <input required type="text" style="margin-bottom: 20px;">
+                    <br>
+                    <label for="">Biiling address</label> <br>
+                    <div>
+                        <input required type="text" placeholder="Country">
+                        <input required type="text" placeholder="Address">
+                    </div>
+                    <a href="#">Enter address manually</a>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" id="checkout">
+                        </div>
+                        <div style="margin-left: 10px; margin-top: -5px;">
+                            <span>Securely save my information for 1-click checkout</span> <br>
+                            <p style="font-size: 12px; color: gray; opacity: 0.7;" >Pay faster on Buffer, inc and thousands of sites.</p>
+                        </div>
+                    </div> <br>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+                <p style="text-align: center;">
+                    By confirming your subscription, you allow Buffer, 
+                    Inc to charge your card for this payment and future 
+                     payments in accordance with their terms. 
+                      You can always cancel your subscription.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<script src="https://kit.fontawesome.com/1bffa3735e.js" crossorigin="anonymous"></script>
+<script src="./script/payment.js"></script>

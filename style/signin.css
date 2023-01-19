@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#container{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height:720px
+
+}
+#logo{
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#loginSection{
+    width: 33%;
+    margin-top: 0px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+input{
+    height: 40px;
+    margin-bottom: 10px;
+    border-color: silver 1px solid;
+}
+a{
+    text-decoration: none;
+    color: rgb(44, 75, 255);
+}
+#imageSection{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fade2a;
+    margin-bottom: 0%;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+
+}
+.headingAndPara{
+    position: relative;
+    margin-top: 18px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+
+h1{
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px
+}
+#signinBtn{
+    background-color: rgb(44, 75, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.para{
+    
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#imageSection>img{
+    margin-top: px;
+    width: 100%;
+    margin-bottom: 0%;
+    padding: 0%;
+}

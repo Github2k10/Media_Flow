@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./data/logo.png" />
+    <title>Channels</title>
+    <style>
+       body{
+        background-color: ghostwhite;
+       }
+        #box{
+            border: 0px solid rgb(11, 0, 163);
+            display: grid;
+            grid-template-columns:repeat(3,1fr) ;
+            width: 50%;
+            height: 100vh;
+            gap: 15px;
+
+        }
+        .img{
+            width: 50px;
+            margin-top: 7%;
+        }
+         #head{
+            /* text-align: center; */
+           margin-left: 25%;
+           color: rgb(63, 62, 62);
+           font-family: "Poppins";
+           font-weight: bold;
+           /* margin-top: 10%; */
+         }
+         #main{
+            display: flex;
+            justify-content: center;
+            
+
+         }
+        .dabba{
+            border: 1px solid rgb(202, 197, 197);
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          
+        }
+       
+       #main :hover{
+        cursor: pointer;
+        border-color: blue;
+        
+
+       }
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div id="head">
+        <h1>Connect a new channel</h1>
+         <p>Looking for step-by-step instructions? Visit our Help Center to read our Getting Started guides <br> and learn about supported channel types.</p>
+   
+    </div>
+   <div id="main">
+    <div id="box">
+        <div class="dabba">
+            <img class="img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2I-f_XqpbZ3H8vVmdJGi70R1WNikcPfA2Qib0OF8RjwCQhOiC" alt="">
+            <h3>Start Page</h3>
+            <p>A shearable landing page</p>
+            <button style="color:blue ;" id="press1" >Create</button>
+        </div>
+        <div class="dabba" >
+            <img class="img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRWpXwCC2-oCbMRO_mNOWKS7olklHoSMBOL13VBLzylpqiSqFNz" alt="">
+            <h3>TikTok</h3>
+            <p>Bussiness acount</p>
+            <button  style="color:blue ;"  id="press2">Connect</button>
+        </div>
+        <div class="dabba" >
+            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD52DwIvs8fMp4ZhPU5eoKw0scBD0m8FG4OQ&usqp=CAU" alt="">
+            <h3>Google Bussiness</h3>
+            <p>Account</p>
+            <button style="color:blue ;" id="press3">Connect</button>
+        </div>
+        <div class="dabba" >
+            <img class="img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSCHBmCvDb99y5oVf24nN2A5LHMKU-Dvic7sryoHev517UDEQB5" alt="">
+            <h3>Instagram</h3>
+            <p>Bussiness account</p>
+            <button style="color:blue ;" id="press4">Connect</button>
+        </div>
+        <div class="dabba">
+            <img class="img" src="https://t3.gstatic.com/images?q=tbn:ANd9GcRnuKfv_WEGXQbgXnd-5qPgvFuwk406aMz6xmcCpS5L-1vjXVLF" alt="">
+            <h3>Facebook</h3>
+            <p>Page or Group</p>
+            <button style="color:blue ;" id="press5">Connect</button>
+        </div>
+        <div   class="dabba">
+            <img class="img" src="https://t2.gstatic.com/images?q=tbn:ANd9GcR6WnTfZmx-Pn-TwUSaWFeUM1DHOKR8Hp2c8LAJmXeQqhsYWPrJ" alt="">
+            <h3>Twitter</h3>
+            <p>Profile</p>
+            <button style="color:blue ;" id="press6">Connect</button>
+        </div>
+        <div   class="dabba" >
+            <img class="img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLeHEPndkY41hW4RCXgDLKxe5wt9vKZyRfWwNF1JFrKZEQdaE2" alt="">
+            <h3>LinkdIn</h3>
+            <p>Page or Profile</p>
+            <button style="color:blue ;" id="press7">Connect</button>
+        </div>
+        <div  class="dabba" >
+            <img class="img" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR6uV39BYDp34TzTD0KQ4N_u_sqlCiWVszKSLL0zU-i7ztoqadW" alt="">
+            <h3>Pinterest</h3>
+            <p>Bussiness</p>
+            <button style="color:blue ;" id="press8">Connect</button>
+        </div>
+        <div  class="dabba">
+            <img class="img" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsZzSYItsbu4NGpfRq9PPjqQ4PZkv3soHgm5SzdoYRIBKn_eoU" alt="">
+            <h3>Shopify</h3>
+            <p>Store</p>
+            <button style="color:blue ;" id="press9">Connect</button>
+        </div>
+    </div>
+   </div>
+    
+
+
+
+
+   <script src="script/channel.js"></script>
+</body>
+</html>

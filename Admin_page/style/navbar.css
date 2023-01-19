@@ -1,0 +1,91 @@
+#navbar {
+  /* margin-bottom: 10px; */
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.416);
+}
+#navbar > img {
+  height: 60px;
+}
+#username {
+  position: relative;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  color: red;
+}
+#login {
+  display: none;
+  position: absolute;
+  top: 60px;
+  line-height: 30px;
+  left: 10px;
+  padding: 6px 16px;
+  border-radius: 6px 16px;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.416);
+}
+#login > ul {
+  list-style: none;
+}
+#dashboard {
+  background-color: rgb(254, 240, 240);
+  border-radius: 10px;
+  padding: 24px 20px;
+  /* width: 96%; */
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+#dashboard > #LeftSideBar > div {
+  padding: 12px;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 0.5px solid pink;
+}
+#dashboard > #LeftSideBar > div:hover {
+  background-color: rgb(44, 75, 255);
+}
+#dashboard > #LeftSideBar {
+  /* border: 1px solid red; */
+ 
+  background-color: rgb(44, 75, 255);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#username i {
+  font-size: 26px;
+}
+#name {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+#username #name:hover {
+  background-color: rgba(220, 219, 219, 0.592);
+}
+#login i {
+  font-size: 18px;
+}
+#logout {
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+#login li {
+  cursor: pointer;
+}
+
+li + button{
+  display: none;
+}
+#dashboard > #LeftSideBar div{
+  cursor: pointer;
+}
